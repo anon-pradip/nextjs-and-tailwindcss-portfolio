@@ -12,7 +12,7 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Django" },
 ]
 
 const AboutSection = () => {

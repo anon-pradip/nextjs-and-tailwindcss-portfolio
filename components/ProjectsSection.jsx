@@ -10,29 +10,25 @@ const projects = [
     name: "Jobster",
     description: "Jobster is a job tracking web app to track your all jobs. Features included to track are: Pending Applicatons, Interviews Scheduled and Jobs Declined. Implemented ReCharts for visualizing all tracks in charts. You can create, read, update and delete jobs.",
     image: "/job-track.png",
-    github: "https://github.com/anon-pradip/JobTrack-App",
-    link: "https://job-track.netlify.app/"
+    github: "https://github.com/anon-pradip/JobTrack-App"
   },
   {
     name: "Cocktails Finder",
     description: "Cocktails is a web app where we can search for desired cocktails and get details about that cocktails. We can find information like category, instructions and ingredients too.",
     image: "/cocktails.png",
-    github: "https://github.com/anon-pradip/cocktails",
-    link: "https://find-cocktails.netlify.app/"
+    github: "https://github.com/anon-pradip/cocktails"
   },
   {
     name: "Dojo Online Store",
     description: "This is a full featured web app where users can view products and add them to their cart and checkout them. There is also the provision for full flexible categories like price, colors, free shipping, etc.",
     image: "/dojo.png",
-    github: "https://github.com/anon-pradip/Dojo-Online-Store",
-    link: "https://dojo-online-store.netlify.app/"
+    github: "https://github.com/anon-pradip/Dojo-Online-Store"
   },
   {
     name: "Github Users",
     description: "This is a web app in which we can searh for any specific github users and view their repos details. It has ReCharts library implemented to visualize the details in charts.",
     image: "/github-user.png",
-    github: "https://github.com/anon-pradip/search-github-users-react",
-    link: "https://search-for-github-users-react.netlify.app/ "
+    github: "https://github.com/anon-pradip/search-github-users-react"
   },
 
 ]
@@ -70,12 +66,6 @@ const ProjectsSection = () => {
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-                      <Link href={project.link} target="_blank">
-                        <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
